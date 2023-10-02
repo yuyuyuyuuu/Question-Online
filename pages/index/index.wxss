@@ -1,0 +1,25 @@
+
+page{
+  background-color: #f6eef9;
+}
+.mw-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 100vh;
+}
+.mw-btn {
+  position: absolute;
+  top: 43vh;
+  left: 0;
+  width: 750rpx;
+  z-index: 2;
+}
+.mw-answer {
+  padding: 100rpx 150rpx 30rpx;
+}
+.mw-weixin.text-center {
+  color: #333;
+  padding: 30rpx 0 0;
+}

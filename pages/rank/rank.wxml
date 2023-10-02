@@ -1,0 +1,18 @@
+
+
+<view class="mw-page">
+  <view class="cu-list menu menu-avatar mw-menu">
+    <view class="cu-item" wx:for="{{rankList}}" wx:key="index">
+      <view class="cu-avatar round lg" style="background-image:url({{item.avatarUrl}});"></view>
+      <view class='content'>
+        <view class='text-gray'>
+          <text class="{{index+1 <= 3?'icon-upstagefill text-yellow':'icon-medalfill text-gray'}}"></text> 第<text class="{{index+1 <= 3?'text-yellow':'text-gray'}} text-xl">{{index+1}}</text>名
+        </view>
+        <view class='text-grey text-sm'>{{item.nickName}}</view>
+      </view>
+      <view class='action'>
+        <view class='text-red text-xl'>{{item.totalScore}}分</view>
+      </view>
+    </view>
+  </view>
+</view>

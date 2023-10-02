@@ -1,0 +1,40 @@
+<view class="page">
+  <view class="padding">
+
+    <view class='page-head'>
+      <view class="page-title text-lg text-bold text-black padding-bottom-xs">
+        精准扶贫知识线上答题活动
+      </view>
+      <view>共10题，满分10分</view>
+      <view class='page-score'>
+        <text class="score-num text-red text-bold">{{totalScore}}分</text>
+      </view>
+    </view>
+    <view class='page-footer'>
+      <view class='padding flex text-center text-grey bg-white radius margin-bottom'>
+        <view class='flex flex-sub flex-direction solid-right'>
+          <view class="text-xxl text-red">{{10-wrong}}题</view>
+          <view class="margin-top-sm">
+            答对</view>
+        </view>
+        <view class='flex flex-sub flex-direction solid-right'>
+          <view class="text-xxl text-gray">{{wrong}}题</view>
+          <view class="margin-top-sm">
+            答错</view>
+        </view>
+        <view class='flex flex-sub flex-direction'>
+          <view class="text-green text-xxl">
+            {{accuracy}}%
+          </view>
+          <view class="margin-top-sm">
+            正确率</view>
+        </view>
+      </view>
+      <view class="flex padding flex-direction">
+        <button bindtap="toIndex" hover-class="other-button-hover" class="cu-btn line-red round lg margin-top"> 返回首页 </button>
+        <button class="cu-btn line-red round lg margin-top" open-type="share"> 推荐给好友 </button>
+
+      </view>
+    </view>
+  </view>
+</view>

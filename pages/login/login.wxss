@@ -1,0 +1,59 @@
+
+page{
+  background-color: #f6eef9;
+}
+
+.padding-top-sm {
+  position: relative;
+  width: 686rpx;
+  margin: 0 40rpx;
+  padding-bottom: 56rpx;
+}
+
+view input {
+  position: absolute;
+  top: 130rpx;
+  left: 75rpx;
+  width: 80vw;
+  height: 80rpx;
+  border: 1px solid black;
+  border-radius: 8rpx;
+}
+
+ 
+.search-placeholder {
+  font-size: 28rpx;
+}
+
+view button {
+  position: absolute;
+  top: 130rpx;
+  left: 20rpx;
+  width: 80vw;
+  height: 80rpx;
+  border: 1px solid black;
+  border-radius: 8rpx;
+}
+
+.cu-btn {
+  position: relative;
+  margin: 0 32rpx;
+  width: 80vw;
+  height: 80rpx;
+  -webkit-overflow-scrolling: touch;
+  font-size: 24rpx;
+  padding-top: 96rpx;
+  padding-left: 46rpx;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 8rpx;
+}
+
+.contact {
+  position: absolute;
+  top: 400rpx;
+  left: 130rpx;
+  width: 80vw;
+  height: 80rpx;
+  border-radius: 8rpx;
+}

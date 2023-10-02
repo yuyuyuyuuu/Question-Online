@@ -1,0 +1,12 @@
+<view class="mw-page">
+  <view class="cu-list menu mw-menu">
+    <view class="cu-item arrow" wx:for="{{historyList}}" wx:key="index" bindtap="goToResult" data-id="{{item._id}}">
+      <view class='content'>
+        <text class='text-black'>脱贫攻坚知识答题</text>
+      </view>
+      <view class='action'>
+        <text class='text-grey text-sm'>{{item.date}}</text>
+      </view>
+    </view>
+  </view>
+</view>

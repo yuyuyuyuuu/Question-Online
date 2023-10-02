@@ -1,0 +1,15 @@
+
+<view class="mw-login">
+  <view class="padding-top-sm mw-top">
+    欢迎进入考试，请准确填写一下信息。
+  </view>
+  <view class="inputname">
+    <input class="textnormal" type="text" bindinput="getRealName" value="{{name_value}}" placeholder-class="search-placeholder" placeholder="请输入你的名字"></input>
+  </view>
+  <view class="padding">
+    <button class='cu-btn bg-red round bolck lg' bindtap="goToLogin">开始考试</button>
+  </view>
+  <view class="padding-left padding-right text-sm">
+    <text class="contact" user-select="{{true}}">如有疑问，请及时联系答题组织者或管理员</text>
+  </view>
+</view>

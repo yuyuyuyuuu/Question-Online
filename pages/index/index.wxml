@@ -1,0 +1,35 @@
+
+<image src="/image/bg.jpg" class="mw-bg"></image>
+<view class="mw-btn">
+  <view class="mw-answer">
+
+    <view wx:if="{{!hasUserInfo}}" bindtap="login">
+      <button class='cu-btn bg-red round block lg margin-top'> 获取头像昵称 </button>
+    </view>
+
+    <view wx:else bindtap="goToLogin">
+      <button class='cu-btn bg-red round block lg margin-top'>开始答题</button>
+    </view>
+
+    <view bindtap="goToHistory">
+      <button class='cu-btn bg-red round block lg margin-top'>答题记录</button>
+    </view>
+
+    <view bindtap="goToWrong">
+      <button class='cu-btn bg-red round block lg margin-top'>错题记录</button>
+    </view>
+
+
+    <view bindtap="goToRank">
+      <button class='cu-btn bg-red round block lg margin-top'>排行榜</button>
+    </view>
+
+    <view>
+      <button class="cu-btn bg-red text-black round block lg margin-top" open-type="share"> 推荐给好友 </button>
+    </view>
+  </view>
+
+  <view class="text-center text-black padding-top-xs" bindtap="goToDetails">
+    活动规则
+  </view>
+</view>

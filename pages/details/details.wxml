@@ -1,0 +1,32 @@
+<!--pages/details/details.wxml-->
+
+<view class="padding mw-padding">
+
+  <view class="padding-top mw-top">
+    答题内容
+  </view>
+  <view class="padding-top-sm mw-top">
+    本次答题的题目来源于“脱贫攻坚知识”题库。
+  </view>
+  
+  <view class="padding-top mw-top">
+    答题规则
+  </view>
+  
+  <view class="padding-top-sm mw-top">
+    （1）试题从题库中随机抽取，参加答题人员必须按照题目顺序进行答题，中途退出之后需重新进入答题；
+  </view>
+  <view class="padding-top-sm mw-top">
+    （2）试题总共10道题，满分10分，答题时间不限，随机单选题和多选题；
+  </view>
+  <view class="padding-top-sm mw-top">
+    （3）每人每天有一次答题机会，系统自动选取个人最高成绩进入排行榜进行排名。
+  </view>
+
+  <view class="padding-top mw-top">
+    排行榜
+  </view>
+  <view class="padding-top-sm mw-top">
+    排行榜显示用户总答对的题目数量。
+  </view>
+</view>

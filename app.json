@@ -1,0 +1,19 @@
+ {
+  "pages": [
+    "pages/index/index",
+    "pages/test/test",
+    "pages/result/result",
+    "pages/history/history",
+    "pages/rank/rank",
+    "pages/details/details",
+    "pages/login/login",
+    "pages/wrong/wrong"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "脱贫攻坚知识答题活动",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
